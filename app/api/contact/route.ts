@@ -49,7 +49,7 @@ export async function POST(req:NextRequest){
         };
     await transporter.sendMail(mailOptions);
 
-return Response.json({succes:true,mailSend:true})
+return Response.json({success:true,mailSend:true})
      } catch (error){
         console.log(error)
         return Response.json({succes:false})
