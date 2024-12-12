@@ -9,7 +9,12 @@ const Footer = () => {
         <div className="flex flex-col gap-2">
           <p>Footer</p>
           <div className="flex items-center gap-3">
-            <Link href="#" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-t border-b border-white hover:border-black rounded-md"
+            >
               <Image
                 src="/icons/FB.svg"
                 alt=""
@@ -18,7 +23,12 @@ const Footer = () => {
                 className=""
               />
             </Link>
-            <Link href="#" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-t border-b border-white hover:border-black rounded-md"
+            >
               <Image
                 src="/icons/IG.svg"
                 alt=""
