@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:AtarioPZ/boilerplate.git
+   git clone git@github.com:AtarioPZ/boilerplate.git custom_folder_name
 
 2. Install dependencies:
 If you're using npm:
